@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Faiz Zuraimiey is a software developer in Malaysia building reliable, maintainable web applications with Laravel and Vue.js."
+    >
+    <meta name="theme-color" content="#f8f2e9">
+    <title>Faiz Zuraimiey — Software Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="page-shell" id="home">
+      <div class="browser-bar" aria-hidden="true">
+        <span class="window-dot window-dot--coral"></span>
+        <span class="window-dot window-dot--gold"></span>
+        <span class="window-dot window-dot--green"></span>
+      </div>
+
+      <div class="page-content">
+        <header class="site-header">
+          <a class="wordmark" href="#home" aria-label="Faiz Zuraimiey, home">FAIZ ZURAIMIEY</a>
+          <nav class="main-nav" aria-label="Main navigation">
+            <a class="nav-link nav-link--active" href="#home" aria-current="page">Home</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+            <a class="nav-link" href="#contact">Contact</a>
+          </nav>
+        </header>
+
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Software developer <span aria-hidden="true">·</span> Malaysia</p>
+            <h1 id="hero-title">Hi, I’m Faiz. I build useful web applications.</h1>
+            <p class="hero-description">
+              Laravel and Vue.js developer focused on reliable, maintainable products.
+            </p>
+
+            <p class="experience">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <rect x="3.5" y="5.5" width="17" height="15" rx="1.5"></rect>
+                <path d="M8 3.5v4M16 3.5v4M3.5 10h17"></path>
+              </svg>
+              <span>5+ years of experience</span>
+            </p>
+
+            <ul class="tech-list" aria-label="Technologies">
+              <li class="tech-pill">
+                <span class="tech-mark tech-mark--laravel" aria-hidden="true">L</span>
+                <span>Laravel</span>
+              </li>
+              <li class="tech-pill">
+                <span class="tech-mark tech-mark--php" aria-hidden="true">php</span>
+                <span>PHP</span>
+              </li>
+              <li class="tech-pill">
+                <span class="tech-mark tech-mark--vue" aria-hidden="true">V</span>
+                <span>Vue.js</span>
+              </li>
+              <li class="tech-pill">
+                <span class="tech-mark tech-mark--mysql" aria-hidden="true">↗</span>
+                <span>MySQL</span>
+              </li>
+            </ul>
+
+            <div class="hero-actions">
+              <a class="button button--primary" href="#contact">Contact me</a>
+              <a class="button button--text" href="#portfolio">
+                View my portfolio
+                <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                  <path d="M4 12h15M13 5l7 7-7 7"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="portrait-wrap">
+            <div class="portrait-shape" aria-hidden="true"></div>
+            <img
+              class="portrait"
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=1100&q=85"
+              alt="Smiling developer portrait"
+              fetchpriority="high"
+            >
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <section class="portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <p class="eyebrow">Thoughtful by design</p>
+      <h2 id="portfolio-title">Good software should feel simple.</h2>
+      <p>
+        From dependable back ends to clear, responsive interfaces, I care about building
+        products people can rely on.
+      </p>
+    </section>
+
+    <footer class="contact-section" id="contact">
+      <div>
+        <p class="eyebrow">Have a project in mind?</p>
+        <h2>Let’s build something useful.</h2>
+      </div>
+      <a class="button button--light" href="mailto:hello@example.com">Get in touch</a>
+    </footer>
+  </body>
+</html>
